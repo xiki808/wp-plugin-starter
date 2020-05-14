@@ -1,6 +1,6 @@
 <?php
 
-namespace WPS\Admin;
+namespace WPS\Back;
 
 class Init
 {

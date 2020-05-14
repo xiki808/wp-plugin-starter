@@ -15,7 +15,7 @@ if (!class_exists('\Psr4AutoloaderClass')) {
 $loader = new \Psr4AutoloaderClass();
 
 // Add namespaces
-$loader->addNamespace('WPS\Admin', __DIR__.'/Includes/Admin');
+$loader->addNamespace('WPS\Back', __DIR__.'/Includes/Back');
 $loader->addNamespace('WPS\Front', __DIR__.'/Includes/Front');
 
 // Register namespaces
