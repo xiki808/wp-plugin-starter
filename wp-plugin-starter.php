@@ -23,4 +23,4 @@ $loader->register();
 
 // Start the plugin
 new WPS\Back\Init();
-
+new WPS\Front\Init();
