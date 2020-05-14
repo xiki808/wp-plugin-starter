@@ -8,15 +8,17 @@ A WordPress plugin starter to use as a starting template to build a custom plugi
 
 The template uses a namespace prefix `WPS\`, this can be changed to any other prefix you would like for your plugin, hence it needs to be replaced and used in every class file.
 
-1. Replace the prefix `WPS\` in wp-plugin-starter.php with your custom one.
+1. Replace the prefix `WPS\` in `wp-plugin-starter.php` with your custom one.
 2. Replace the prefix in files `Back/Init.php` and `Front/Init.php`.
 
-In this template code is organized under two main namespaces:
+The template code is organized under two main namespaces:
 
 - `Includes/Back` for back-end related code
 - `Includes/Front` for front-end related code
 
-A sub namespace can be used simply by adding a folder either in `Back` or `Front` folders. If a new namespace is needed, create the folder and add the namespace in `wp-plugin-starter.php` before the `$loader->register();` call.
+A sub namespace can be used simply by adding a folder either in `Includes/Back` or `Includes/Front` folders, and add the path to the containing classes' namespace. 
+
+If a new namespace is needed, create the folder and add the namespace in `wp-plugin-starter.php` before the `$loader->register();` call.
 
 ```
 $loader->addNamespace('{MYPREFIX}\{MYNAMESPACE}', __DIR__.'/Path/To/Folder');
