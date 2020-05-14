@@ -20,3 +20,7 @@ $loader->addNamespace('WPS\Front', __DIR__.'/Includes/Front');
 
 // Register namespaces
 $loader->register();
+
+// Start the plugin
+new WPS\Back\Init();
+
