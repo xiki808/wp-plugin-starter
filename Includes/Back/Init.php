@@ -27,7 +27,7 @@ class Init
      */
     private function define_settings()
     {
-      // Example: add_image_size('icon', 32, 64, true);
+        // Example: add_image_size('icon', 32, 64, true);
     }
 
     /**
