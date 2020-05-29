@@ -1,12 +1,11 @@
 <?php
 
-/*
-Plugin Name: WP Plugin Starter
-Description: A WordPress plugin starter to use as a starting template to build a custom plugin
-Version: 0.0.1
-License: GPL
-*/
-
+/**
+ * Plugin Name: WP Plugin Starter
+ * Description: A WordPress plugin starter to use as a starting template to build a custom plugin using namespaces.
+ * Version: 0.0.1
+ * Author: xiki808.
+ */
 if (!class_exists('\Psr4AutoloaderClass')) {
     require_once __DIR__.'/autoload.php';
 }
